@@ -1,0 +1,93 @@
+matches:
+  - trigger: ":sk:" #subklaso de
+    replace: ", rdfs:subClassOf"
+
+  - trigger: ":hs:" #subklaso de
+    replace: ", rdfs:hasSubClass"
+
+  - trigger: ":t:" # ekzemplo de 
+    replace: ", rdf:type"
+
+  - trigger: ":p:" # parto de
+    replace: ", wdt:P361"
+
+  - trigger: ":hp:" # havas parto
+    replace: ", wdt:P527"
+
+  - trigger: ":ha:" # havas atribuo
+    replace: ", wdt:P13044"
+
+  - trigger: ":na:" # nacieco
+    replace: ", wdt:P27"
+
+  - trigger: ":kd:" # krea de (aŭtoro)
+    replace: ", wdt:P178"
+
+  - trigger: ":sd:" # sugestita de
+    replace: ", wdt:P8403"
+
+  - trigger: ":eo:" # etimologio
+    replace: ", wdt:P5191"
+
+  - trigger: ":nd:" # nomita rilate al
+    replace: ", wdt:P138"
+
+  - trigger: ":skd:" # strukturo konstruita de
+    replace: ", wdt:P193"
+
+  - trigger: ":hpo:" # havas profesion
+    replace: ", wdt: P106"
+
+  - trigger: ":uk:" # ĉefa uzokapo
+    replace: ", wdt: P366"
+
+  - trigger: ":os:"
+    replace: ", wdt:P306"
+
+  - trigger: ":pl:" # programlingvo
+    replace: ", wdt:P277"
+
+  - trigger: ":mk:" #malkongrua kun
+    replace: ", owl:disjointWith"
+
+  - trigger: ":lk:" # loka en
+    replace: ", wdt:P276"
+
+  - trigger: ":tm:" # temo
+    replace: ", wdt:P1629"
+
+  - trigger: ":obsi:" # objekto aŭ sistemo
+    replace: "[objekto](#43cc7970, wdt:P1629) aŭ [sistemo](#c785c7d6, wdt:P1629) "
+
+  - trigger: ":to:" # malkovrita tempo
+    replace: ", wdt:P575"
+
+  - trigger: ":io:" # inspiro
+    replace: ", wdt:P941"
+
+  - trigger: ":ko:" # produkto/servo de komerco
+    replace: ", wdt:P7163"
+
+  - trigger: ":dm:" #domajno
+    replace: ", wdt:P101"
+
+  - trigger: ":ao:" #agento
+    replace: ", wdt:P12995"
+
+  - trigger: ":org:" # organizaĵo
+    replace: ", wdt:P108"
+
+  - trigger: ":nlk:" # naskiĝloko
+    replace: ", wdt:P19"
+
+  - trigger: ":nto:" # naskiĝtempo
+    replace: ", wdt:P569"
+
+  - trigger: ":rl:" # rimarkinda laboro
+    replace: ", wdt:P800"
+
+  - trigger: ":cf:" #ĉefurbo
+    replace: ", wdt:P36"
+
+  - trigger: ":kl:" # kunlaboranto
+    replace: ", wdt:P1327"

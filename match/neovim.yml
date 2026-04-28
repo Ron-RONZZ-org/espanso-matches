@@ -1,0 +1,7 @@
+matches:
+  - trigger: ":init.lua:"
+    replace: "nvim ~/.config/nvim/init.lua"
+
+  - regex: ":nenc\\s+(\\S+):"
+    replace: "cp modelo.enc {{1}}.enc && nvim {{1}}.enc"
+

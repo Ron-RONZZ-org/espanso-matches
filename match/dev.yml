@@ -1,0 +1,18 @@
+matches:
+  - trigger: 'amd'
+    replace: 'AGENTS.md'
+
+  - trigger: 'uamd'
+    replace: 'update AGENTS.md accordingly.'
+
+  - trigger: 'inp'
+    replace: ' ./dev/plans/0-init-plan.md'
+
+  - trigger: 'utd'
+    replace: "Use 'todowrite' tool to update todo list"
+
+  - trigger: 'kok'
+    replace: 'Approved. Implement plan, create automated tests, and test thoroughly.'
+
+  - trigger: 'fn'
+    replace: '{file-name} '

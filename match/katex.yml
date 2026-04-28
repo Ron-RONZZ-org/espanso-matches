@@ -1,0 +1,20 @@
+matches:
+  - trigger: 'fk'
+    replace: '\frac{$|$}{}'
+    word: false
+
+  - trigger: ':vk'
+    replace: '\vec{$|$}'
+    word: false
+
+  - trigger: ':*'
+    replace: '\cdot '
+
+  - trigger: ':tk'
+    replace: '\text{$|$}'
+
+  - trigger: ':so'
+    replace: '\Rightarrow '
+
+  - trigger: ':tl'
+    replace: '\therefore '

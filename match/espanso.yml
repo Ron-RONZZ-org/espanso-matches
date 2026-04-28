@@ -1,0 +1,3 @@
+matches:
+  - trigger: ":espm:"
+    replace: "cd $HOME/.config/espanso/match && ls"

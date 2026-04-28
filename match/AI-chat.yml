@@ -1,0 +1,3 @@
+matches:
+  - trigger: 'cmd!'
+    replace: 'Linux Mint terminal command to '

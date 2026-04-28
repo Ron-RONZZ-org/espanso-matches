@@ -1,0 +1,7 @@
+matches:
+  - trigger: ":u:"
+    replace: "ŭ"
+  - trigger: "pkt"
+    replace: "pli kiel tel: "
+  - trigger: "nup"
+    replace: "Nun pri "
