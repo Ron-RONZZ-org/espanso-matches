@@ -1,9 +1,10 @@
 matches:
-  - trigger: ":loc:"
-    replace: "locate -ib "
-
-  - trigger: "nff"
-    replace: >-
-      nvim $(find . -type f -iname $|$ | head -n 1)
-  - trigger: ':git:'
-    replace: 'git add . && git commit -m "$m" && git pull && git push && git status'
+- trigger: :git
+  replace: git add . && git commit -m "$m" && git pull && git push && git status
+- trigger: :loc
+  replace: 'locate -ib '
+- trigger: :ls
+  replace: ' | less'
+- trigger: nff
+  replace: nvim $(find . -type f -iname $|$ | head -n 1)
+  force_mode: keys

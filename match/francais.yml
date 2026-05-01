@@ -1,22 +1,15 @@
 matches:
-
-  - trigger: ":oe"
-    replace: "œ"
-  
-  - trigger: ":."
-    replace: "·"
-
-  - trigger: ":af:"
-    replace: "(au figuré) "
-
-  - trigger: ":fa:"
-    replace: "(familier) "
-
-  - trigger: ":tp:"
-    replace: "(toujours plurielles par convention) "
-
-  - trigger: ":pe:"
-    replace: "(par extension) "
-
-  - trigger: ":vi:"
-    replace: "(vieilli) "
+- trigger: :.
+  replace: ·
+- trigger: ':af:'
+  replace: '(au figuré) '
+- trigger: ':fa:'
+  replace: '(familier) '
+- trigger: :oe
+  replace: œ
+- trigger: ':pe:'
+  replace: '(par extension) '
+- trigger: ':tp:'
+  replace: '(toujours plurielles par convention) '
+- trigger: ':vi:'
+  replace: '(vieilli) '

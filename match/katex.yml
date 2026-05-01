@@ -1,20 +1,15 @@
 matches:
-  - trigger: 'fk'
-    replace: '\frac{$|$}{}'
-    word: false
-
-  - trigger: ':vk'
-    replace: '\vec{$|$}'
-    word: false
-
-  - trigger: ':*'
-    replace: '\cdot '
-
-  - trigger: ':tk'
-    replace: '\text{$|$}'
-
-  - trigger: ':so'
-    replace: '\Rightarrow '
-
-  - trigger: ':tl'
-    replace: '\therefore '
+- trigger: :*
+  replace: '\cdot '
+- trigger: :so
+  replace: '\Rightarrow '
+- trigger: :tk
+  replace: \text{$|$}
+- trigger: :tl
+  replace: '\therefore '
+- trigger: :vk
+  replace: \vec{$|$}
+  word: false
+- trigger: fk
+  replace: \frac{$|$}{}
+  word: false

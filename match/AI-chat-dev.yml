@@ -1,0 +1,15 @@
+matches:
+- trigger: :approve
+  replace: Approved. Implement plan.
+- trigger: :inp
+  replace: ' ./dev/plans/0-init-plan.md'
+- trigger: :plan
+  replace: Use 'todowrite' tool to plan
+- trigger: :test
+  replace: Create comprehensive unit tests, run, and iterate until 100% success.
+- trigger: :update
+  replace: update root and relevant module AGENTS.md accordingly.
+- trigger: amd
+  replace: AGENTS.md
+- trigger: fn
+  replace: '{file-name} '

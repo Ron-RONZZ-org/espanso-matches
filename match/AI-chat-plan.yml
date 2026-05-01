@@ -1,0 +1,16 @@
+matches:
+- trigger: :cli
+  replace: 'Show how to in bash (Linux Mint 22.1, git): '
+- trigger: :doc
+  replace: 'Answer based on official docs: '
+- trigger: :github
+  replace: 'Generate github issue: Give me the title and issue description in two
+    separate code blocks so ready to copy and paste'
+- trigger: :me
+  replace: 'I have: Huggingface API, extensive python knowledge. I use: Linux Mint
+    22.1'
+- trigger: :setup
+  replace: 'Give me step-by-step actionable instructions how can I '
+- trigger: :style
+  replace: Respond only with requested content concisely without digression. In code
+    block, use single quotes where possible.

@@ -1,9 +1,7 @@
 matches:
-  - trigger: ":ua:"
-    replace: "$\\uparrow$"
-
-  - trigger: ":da:"
-    replace: "$\\downarrow$"
-
-  - trigger: ":ra:"
-    replace: "\\longrightarrow"
+- trigger: ':da:'
+  replace: $\downarrow$
+- trigger: ':ra:'
+  replace: \longrightarrow
+- trigger: ':ua:'
+  replace: $\uparrow$

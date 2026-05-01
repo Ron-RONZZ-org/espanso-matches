@@ -1,3 +1,4 @@
 matches:
-  - trigger: ":espm:"
-    replace: "cd $HOME/.config/espanso/match && ls"
+- trigger: :nm
+  replace: "- trigger: '$|$'\n  replace: ''"
+  force_mode: keys

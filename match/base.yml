@@ -1,4 +1,3 @@
 matches:
-
-  - trigger: ":encik:"
-    replace: "~/kodo/ronzz-markmap/encik"
+- trigger: ':encik:'
+  replace: ~/kodo/ronzz-markmap/encik
